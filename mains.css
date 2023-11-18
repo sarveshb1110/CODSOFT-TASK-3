@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;500&display=swap');
+*
+{  margin: 0;
+    padding: 0;
+    font-family:Calibri;
+    box-sizing: border-box;
+ 
+}
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    background:linear-gradient(45deg,darkslateblue,rgb(151, 2, 151));
+    
+}
+
+
+.sidebar{
+    background-color:blueviolet;
+}
+
+.sidebar nav{
+    width: 200px;
+    padding:20px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 15px 10px 15px ;
+
+   
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color: whitesmoke;
+}
+.main{
+    width: 90vw;
+    background-color: transparent;
+}
+.infoContainer{
+    background-color:whitesmoke;
+    margin:50px auto;
+    height:25vw;
+    width: 80vw;
+    align-items: center;
+    
+}
+.devinfo{
+    margin:10px;
+    font-size: large;
+    justify-content:center;
+    display:flex ;
+    flex-direction: column;
+}
+.hello{
+    font-family: 'Bebas Neue';
+    font-size: 45px;
+    font-weight: 200;
+}
+.name
+{
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    font-weight: 400;
+}
+.about{
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight:500;
+
+}
+
+.moreinfo ul li{
+    margin-top: 12px;
+    list-style:none;
+    font-size:16px;
+    font-family: 'poppins';
+    font-weight: 100;
+}
+.btns button{
+    border-radius: 10px;
+    border:none;
+    padding:10px;
+    margin-top:20px;
+    background-color:darkslateblue;
+    color: whitesmoke;
+
+}
+
+
+.contactform{
+    font-size: 20px;
+    color: whitesmoke;
+    margin:5px ; 
+    
+}
+
+.form{
+    border: 2px solid violet;
+    width: 450px;
+    height: 300px;
+    border-radius: 25px;
+    padding: 25px 20px 30px;
+    margin:  40px auto;
+}
+.contactform h1{
+    font-family: 'Bebas Neue';
+    font-size: 90px;
+}
+.email{
+    margin: 20px ;
+    font-size: 25px;
+}
+.email input{
+    background-color: whitesmoke;
+    border: none;
+    padding: 8px;
+    width: 200px;
+}
+#emailHelp{
+    margin-top: 10px;
+    font-size:10px;
+}
+
+.phone{
+    margin: 20px;
+    font-size: 25px;
+
+}
+.phone input{
+    background-color: whitesmoke;
+    border: none;
+    padding: 8px;
+    width: 120px;
+}
+
+.submitbtn{
+    border-radius: 10px;
+    padding:10px;
+    margin:5px 20px;
+    border: none;
+}
+.me{
+    color: whitesmoke;
+    
+}
+  
+
+.about h1{
+    font-family: 'Bebas Neue';
+    color: whitesmoke;
+    font-size: 90px;
+    margin-left: 5px;
+    
+
+}
+.introduction ul li{
+    list-style:none;
+    margin: 10px 5px;
+    font-size:20px;
+    font-family: 'Poppins';
+    color: black;
+}
+.college{
+padding: 5px ;
+margin:10px 15px;
+
+}
+.college img{
+    
+    width: 400px;
+}
+
+.introduction h2{
+    margin:10px 5px 0px;
+    font-family: 'Bebas Neue';
+    color: whitesmoke;
+    font-size:40px;
+}
+.introduction h3{
+    margin: -62px 205px 0px;
+    font-family: 'Bebas Neue';
+    color: whitesmoke;
+    font-size: 55px;
+}
+.introduction h4{
+    font-family: 'Bebas Neue';
+    font-size: 35px;
+    margin: 5px;
+}
+p{
+    font-size:25px;
+    font-family: 'Poppins';
+    margin:5px; 
+    font-weight: 500;
+    color: black;
+}
+.goals h1{
+    font-size:45px;
+    font-family: 'Bebas Neue';
+    margin: 20px 5px 0px;
+}
+.goals p{
+    font-size:30px;
+    font-family: 'Poppins';
+    margin:0px 5px; 
+}
+.goals ol {
+    margin-left: 270px;
+    margin-top:-36px;
+    font-size:26px;
+    font-family: 'Poppins';
+    color: black;
+}
+
+.projects h1 {
+    font-family: 'Bebas Neue';
+    color: whitesmoke;
+    font-size: 90px;
+    margin-left: 5px;
+    
+}
+.todolist{
+    font-family: 'poppins';
+    color: black;
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 20px;
+    
+    
+}
+.digitalclock{
+    font-family: 'poppins';
+
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 20px;
+    
+}
+.todolist button{
+    border-radius: 10px;
+    border:none;
+    padding:10px;
+    margin-top:10px;
+    background-color:darkslateblue;
+    color:whitesmoke;
+
+}
+.digitalclock button{
+    border-radius: 10px;
+    border:none;
+    padding:15px;
+    margin-top:10px;
+    background-color:darkslateblue;
+    color:whitesmoke;
+
+}
+.projectinfo{
+    background-color:whitesmoke;
+    margin:20px auto;
+    height:25vw;
+    width: 80vw;
+    align-items: center;   
+}
+
+.skills h1 {
+    font-family: 'Bebas Neue';
+    color: whitesmoke;
+    font-size: 90px;
+    margin-left: 5px;   
+}
+.courses img{
+    width: 100px;
+    padding: 10px;
+}
+.courses ul  {
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    padding:20px;
+    
+}
+.courses ul li  {
+    font-family: 'poppins';
+    color: whitesmoke;
+    font-size: 20px;
+    
+    
+}
+.courses ul li p {
+    font-family: 'poppins';
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.basics{
+    font-family: 'Bebas Neue';
+    color: whitesmoke;
+    font-size: 35px;
+    margin: 5px; 
+
+}
